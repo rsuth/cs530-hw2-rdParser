@@ -1,0 +1,4 @@
+<exp> ::= <term>{<op><term>}
+<term> ::= int-int | <relop> int | (<exp>)
+<op> ::= and | or
+<relop> ::= > | < | <= | >= | = | != | not
